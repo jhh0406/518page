@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>5/18 민주화 운동 관련 자료</title>
+    <style>
+      .btns {
+        width: 50%;
+        margin: 0 auto;
+      }
+      .tv {
+        width: 50%;
+        margin: 0 auto;
+      }
+      button {border-radius: 3px;}
+    </style>
+  </head>
+  <body>
+    <div class="mainScreen">
+      <div class="btns">
+        <button type="button" name="button" onclick="window.open('http://www.518.org/intro.html')">5.18 기념재단</button>
+        <button type="button" name="button" onclick="window.open('http://cnu518.jnu.ac.kr')">전남대학교 5.18 연구소</button>
+        <button type="button" name="button" onclick="window.open('http://www.518archives.go.kr')">5.18 민주화운동 기록관</button>
+      </div>
+      <div class="tv">
+        <div id="view">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/ypFoM4W1G14" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div>
+          <button type="button" name="button" onclick="play(first)">제 40주년 민주화운동 기념식</button>
+          <button type="button" name="button" onclick="play(second)">5.18 민주화 운동, 광주에 가다</button>
+          <button type="button" name="button" onclick="play(third)">2020 임을 위한 행진곡</button>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="jscript.js"></script>
+  </body>
+</html>
